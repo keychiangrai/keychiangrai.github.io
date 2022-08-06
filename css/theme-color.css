@@ -1,0 +1,175 @@
+/*
+
+[THEME COLOR STYLES]
+
+*/
+
+/* ------------------------------------
+    COLOR
+------------------------------------ */
+a,
+.header--topbar .nav > li > a:hover,
+.header--topbar .nav > li > a > .fa,
+.header--infobar .info li .content p a:hover,
+.header--infobar .info li .content p a:focus,
+.header--infobar .logo a span,
+.header--search button[type="submit"],
+.header--nav-links > li > a:hover,
+.header--nav-links > li.active > a,
+.header--nav-links > li.open > a,
+.bg--color-theme .btn-default:hover,
+.bg--color-theme .btn-default:focus,
+.bg--color-theme .btn-default.focus,
+.bg--color-theme .btn-default:active,
+.bg--color-theme .btn-default:active:hover,
+.bg--color-theme .btn-default:active:focus,
+.bg--color-theme .btn-default:active.focus,
+.bg--color-theme .btn-default.active,
+.bg--color-theme .btn-default.active:hover,
+.bg--color-theme .btn-default.active:focus,
+.bg--color-theme .btn-default.active.focus,
+.bg--color-theme .open > .dropdown-toggle.btn-default,
+.bg--color-theme .open > .dropdown-toggle.btn-default:hover,
+.bg--color-theme .open > .dropdown-toggle.btn-default:focus,
+.bg--color-theme .open > .dropdown-toggle.btn-default.focus,
+.bg--overlay .btn-default:hover,
+.bg--overlay .btn-default:focus,
+.bg--overlay .btn-default.focus,
+.bg--overlay .btn-default:active,
+.bg--overlay .btn-default:active:hover,
+.bg--overlay .btn-default:active:focus,
+.bg--overlay .btn-default:active.focus,
+.bg--overlay .btn-default.active,
+.bg--overlay .btn-default.active:hover,
+.bg--overlay .btn-default.active:focus,
+.bg--overlay .btn-default.active.focus,
+.bg--overlay .open > .dropdown-toggle.btn-default,
+.bg--overlay .open > .dropdown-toggle.btn-default:hover,
+.bg--overlay .open > .dropdown-toggle.btn-default:focus,
+.bg--overlay .open > .dropdown-toggle.btn-default.focus,
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
+.about--tab-nav .nav > li > a:hover,
+.about--tab-nav .nav > li.active > a,
+.about--tab-items .tab-pane ul li.done,
+.skills--content .progress-bars .progress .progress-bar span,
+.gallery--filter-menu .nav li:hover,
+.gallery--filter-menu .nav li.active,
+.counter--item .icon,
+.team--member .skill .progress-bar span,
+.post--item .meta ul li a:hover,
+.contact-info--item p a:hover,
+.contact-info--social .nav > li > a,
+.footer--widgets a:hover,
+.footer--widgets a:focus,
+.recent-posts--widget ul li .date,
+.page-header--section .breadcrumb li a:hover,
+.page-header--section .breadcrumb li a:focus,
+.about-details--content ul li.done,
+.extra-service--item .icon,
+.recent-posts--widget .meta li a:hover,
+.gallery--item figcaption .title .h4 a:hover {
+    color: #ebd621;
+}
+
+/* ------------------------------------
+    BACKGROUND COLOR
+------------------------------------ */
+.bg--color-theme,
+.header--nav-links > .dropdown > .dropdown-menu > li > a:hover:before,
+.header--nav-links > .dropdown > .dropdown-menu > li.active > a:before,
+.section--title:before,
+.section--title:after,
+.btn-default:before,
+.skills--content .progress-bars .progress .progress-bar,
+.step--item:before,
+.service--item .icon,
+.features--content .features li .fa,
+.pricing--item .title .h3,
+.pricing--item .title .ribbon,
+.team--member .skill .progress-bar,
+.contact--form .title .h3:before,
+.contact-info--social .nav > li > a:hover,
+.contact-info--social .nav > li > a:focus,
+.widget--title .h4:before,
+.bg--overlay-color:before,
+.pagination > li > a:before,
+.pagination > li > span:before,
+.comment--list .title .h3:before,
+.comment--form .title .h3:before,
+.owl-nav > div {
+    background-color: #ebd621;
+}
+
+::-moz-selection {
+    background-color: #ebd621;
+}
+::selection {
+    background-color: #ebd621;
+}
+
+/* ------------------------------------
+    BORDER COLOR
+------------------------------------ */
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:active:hover,
+.btn-default:active:focus,
+.btn-default:active.focus,
+.btn-default.active,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default,
+.open > .dropdown-toggle.btn-default:hover,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default.focus,
+.testimonial--clients .owl-item.active + .active .item img,
+.form-control:focus,
+.contact-info--social .nav > li > a,
+.about-details--content .timeline li .title:before,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pagination > li.active > a,
+.pagination > li.active > span,
+.pagination > li.active > a:hover,
+.pagination > li.active > span:hover,
+.pagination > li.active > a:focus,
+.pagination > li.active > span:focus {
+    border-color: #ebd621;
+}
+
+.pricing--item .title .h3:before,
+.pricing--item .title .ribbon:before {
+    border-top-color: #ebd621;
+}
+
+/** footer widget color version css **/
+.footer--widgets .widget--title .h4 {
+	color: #ebd621;
+}
+.footer--widgets a,
+.footer--widgets {
+	color: #303030;
+}
+.footer--copyright a {
+	color: #ffffff;
+}
+.footer--copyright a:hover {
+	color: #222;
+}
+.footer--copyright a:focus,
+.footer--widgets a:hover,
+.footer--widgets a:focus,
+.recent-posts--widget ul li .date {
+	color: #ebd621;
+}
+.footer--widgets {
+  background-color: #f7f7f7;
+}
+.footer--copyright {
+	background-color: #ebd621;
+}

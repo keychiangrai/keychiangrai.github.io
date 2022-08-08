@@ -2336,7 +2336,7 @@ body.is-scrolling #backToTop {
 
 /* 20.2. TESTIMONIAL CLIENTS */
 .testimonial--clients {
-    max-width: 380px;
+
     margin: 45px auto 0;
     text-align: center;
 }
@@ -2358,6 +2358,7 @@ body.is-scrolling #backToTop {
 
 .testimonial--clients .item img {
     border: 2px solid #fff;
+    height: 100%;
     -webkit-transition: border-color .25s;
     transition: border-color .25s;
 }

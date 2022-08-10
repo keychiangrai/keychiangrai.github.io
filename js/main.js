@@ -108,51 +108,7 @@
             });
         }
 
-        /* ------------------------------------
-            FORM VALIDATION
-        ------------------------------------ */
-        var $formValidation = $('[data-form="validate"]');
-
-        $formValidation.each(function () {
-            $(this).validate({
-                errorPlacement: function () {
-                    return false;
-                }
-            });
-        });
-
-        var $formMailchimpAjax = $('[data-form="mailchimpAjax"]');
-
-        $formMailchimpAjax.each(function () {
-            $(this).validate({
-                errorPlacement: function () {
-                    return false;
-                },
-                submitHandler: function (el) {
-                    var $form = $(el),
-                        formData = $form.serialize(),
-                        formURL = $form.attr('action').replace('/post?', '/post-json?').concat('&c=?'),
-                        $formBtnIcon = $form.find('button[type="submit"] .fa'),
-                        formIconClass = function () {
-                            if ( $formBtnIcon.hasClass('fa-send-o') ) {
-                                return 'fa-send-o';
-                            } else if ( $formBtnIcon.hasClass('fa-close') ) {
-                                return 'fa-close';
-                            } else if ( $formBtnIcon.hasClass('fa-check') ) {
-                                return 'fa-check';
-                            }
-                        };
-
-                    $formBtnIcon.toggleClass(formIconClass() + ' fa-spinner fa-spin');
-
-                    $.getJSON(formURL, formData, function (res) {
-                        res.fa = res.result === 'error' ? 'fa-close' : 'fa-check';
-
-                        $formBtnIcon.toggleClass( 'fa-spinner fa-spin ' + res.fa );
-                    });
-                }
-            });
-        });
+    
 
 		/* ------------------------------------
             CONTACT FORM

@@ -213,17 +213,22 @@
         var $skills = $('.skills--section'),
             $skillProgressBars = $skills.find('.progress-bars');
 
-        $skillProgressBars.find('.progress-bar').each(function () {
+        $skillProgressBars.find('.progress-bar').each(function (e) {
             var $t = $(this);
-
+            console.log(e)
             $t.css('width', 0);
 
-            $t.waypoint(function () {
-                $t.css('width', $t.data('value') + '%');
-            }, {
-                triggerOnce: true,
-                offset: 'bottom-in-view'
-            });
+
+              $t.waypoint(function () {
+
+                  $t.css('width', $t.data('value') + '%');
+
+              }, {
+                  triggerOnce: true,
+                  offset: 'bottom-in-view'
+              });
+
+
         });
 
         /* ------------------------------------
@@ -272,35 +277,7 @@
             });
         });
 
-        /* ------------------------------------
-            MAP
-        ------------------------------------ */
-        var $contact = $('.contact--section'),
-            $contactMap = $contact.find('#map'),
-            contactMap, contactMapData;
 
-        if ( $contactMap.length && typeof google !== 'undefined' ) {
-            contactMap = new google.maps.Map($contactMap[0], {
-                center: {lat: $contactMap.data('map-latitude'), lng: $contactMap.data('map-longitude')},
-                zoom: $contactMap.data('map-zoom'),
-                scrollwheel: false,
-                disabledDefaultUI: true,
-                zoomControl: true
-            });
-
-            if ( typeof $contactMap.data('map-marker') !== 'undefined' ) {
-                contactMapData = $contactMap.data('map-marker');
-
-                for ( var i = 0; i < contactMapData.length; i++ ) {
-                    new google.maps.Marker({
-                        position: {lat: contactMapData[i][0], lng: contactMapData[i][1]},
-                        map: contactMap,
-                        animation: google.maps.Animation.DROP,
-                        draggleable: true
-                    });
-                }
-            }
-        }
     });
 
     $wn.on('load', function () {

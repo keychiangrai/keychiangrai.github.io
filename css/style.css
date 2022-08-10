@@ -1263,8 +1263,6 @@ body.is-scrolling #backToTop {
 .header--navbar .navbar-toggle {
     float: left;
     margin: 15px;
-    border-color: #fff;
-    border-radius: 2px;
 }
 
 .header--navbar .navbar-toggle .icon-bar {
@@ -1713,8 +1711,40 @@ body.is-scrolling #backToTop {
     box-shadow: none;
     font-size: 14px;
     line-height: 22px;
-    -webkit-transition: width 1s ease-in-out .3s;
-    transition: width 1s ease-in-out .3s;
+}
+
+.p1{
+  -webkit-transition: width 1s ease-in-out .5s;
+  transition: width 1s ease-in-out .5s;
+}
+
+.p2{
+  -webkit-transition: width 1s ease-in-out .75s;
+  transition: width 1s ease-in-out .75s;
+}
+
+.p3 {
+    -webkit-transition: width 1s ease-in-out 1s;
+    transition: width 1s ease-in-out 1s;
+}
+
+.p4 {
+    -webkit-transition: width 1s ease-in-out 1.25s;
+    transition: width 1s ease-in-out 1.25s;
+}
+
+.p5 {
+    -webkit-transition: width 1s ease-in-out 1.5s;
+    transition: width 1s ease-in-out 1.5s;
+}
+
+.header--topbar .nav > li.soc:before {
+    content: "";
+}
+
+.header--topbar .nav > li.soc {
+    margin: 0;
+    margin-left: 10px;
 }
 
 .skills--content .progress-bars .progress .progress-bar span {
@@ -1738,6 +1768,7 @@ body.is-scrolling #backToTop {
 /* 11.1. SERVICE ITEM */
 .service--item {
     position: relative;
+    min-height: 220px;
     margin-bottom: 60px;
     padding: 54px 15px 30px;
     background-color: #fff;

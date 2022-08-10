@@ -1,0 +1,31 @@
+{
+  "name": "ร้านกุญแจยินดี บ้านดู ่เชียงราย",
+  "short_name": "ร้านกุญแจยินดี",
+  "start_url": ".",
+  "lang": "th",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "ร้านกุญแจยินดี เชียงราย",
+  "icons": [{
+    "src": "./img/logo/logo_32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  },{
+    "src": "./img/logo/logo_64.png",
+    "sizes": "64x64",
+    "type": "image/png"
+  },{
+    "src": "./img/logo/logo_128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  },{
+    "src": "./img/logo/logo_256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }, {
+    "src": "./img/logo/logo_512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  },]
+}

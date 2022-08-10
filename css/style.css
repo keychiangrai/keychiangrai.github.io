@@ -1,124 +1,4 @@
-/*
 
-[MAIN STYLES]
-
-Template: ร้านกุญแจยินดี บ้านดู่ เชียงรายี
-Author: Themeร้านกุญแจยินดี บ้านดู่ เชียงรายี
-Author URI: https://themeforest.net/user/themeร้านกุญแจยินดี บ้านดู่ เชียงรายี
-
-
-[NOTE]
-------
-PLEASE DO NOT EDIT THIS CSS FILE, YOU MAY NEED TO USE 'css/custom.css' FILE FOR WRITING YOUR CUSTOM CSS STYLES.
-WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SAFER TO USE 'css/custom.css' file.
-
-
-[TABLE OF CONTENTS]
-
-1. GENERAL STYLES
-    1.1. BUTTON STYLES
-    1.2. PLACEHOLDER STYLES
-    1.3. FORM STYLES
-
-2. HELPER CLASSES
-
-3. COMPONENTS
-    3.1. PRELOADER
-    3.2. SECTION TILTE
-    3.3. OWL NAV
-    3.4. OWL ANIMATIONS
-    3.5. PAGINATION
-    3.6. COMMENT LIST
-    3.7. COMMENT FORM
-    3.8. BACK TO TOP BUTTON
-
-4. WIDGETS
-    4.1. WIDGET TITLE
-    4.2. CONTACT WIDGET
-    4.3. LINKS WIDGET
-    4.4. RECENT POSTS WIDGET
-
-5. HEADER SECTION
-    5.1. HEADER TOPBAR
-    5.2. HEADER INFOBAR
-    5.3. HEADER NAVBAR
-
-6. PAGE HEADER SECTION
-
-7. BANNER SECTION
-    7.1. BANNER SLIDER
-    7.2. BANNER CONTENT
-    7.3. BANNER IMAGE
-
-8. ABOUT SECTION
-    8.1. ABOUT TAB NAV
-    8.2. ABOUT TAB ITEMS
-
-9. ABOUT DETAILS SECTION
-    9.1. TIMELINE
-
-10. SKILLS SECTION
-    10.1. SKILLS CONTENT
-
-11. SERVICES SECTION
-    11.1. SERVICE ITEM
-    11.2. SERVICE DETAILS
-
-12. EXTRA SERVICES SECTION
-    12.1. EXTRA SERVICE ITEM
-
-13. CALL TO ACTION
-
-14. FEATURES SECTION
-    14.1. FEATURES CONTENT
-
-15. STEPS SECTION
-
-16. gallery SECTION
-    16.1. gallery FILTER MENU
-    16.2. gallery ITEM
-
-17. COUNTER SECTION
-
-18. PRICING SECTION
-
-19. INTRO SECTION
-
-20. TESTIMONIAL SECTION
-    20.1. TESTIMONIAL CONTENT
-    20.2. TESTIMONIAL CLIENTS
-    20.3. TESTIMONIAL CLIENT INFO
-
-21. TEAM SECTION
-    21.1. TEAM MEMBER
-
-22. SOCIAL SECTION
-
-23. BLOG SECTION
-    23.1. POST ITEM
-    23.2. POST COMMENT
-    23.3. BLOG CONTENT
-    23.4. BLOG SIDEBAR
-
-24. SUBSCRIBE SECTION
-
-25. BRANDS SECTION
-
-26. CONTACT SECTION
-    26.1. CONTACT FORM
-    26.2. CONTACT MAP
-
-27. CONTACT INFO SECTION
-    27.1. CONTACT INFO ITEMS
-    27.2. CONTACT INFO SOCIAL
-
-28. 404 SECTION
-
-29. FOOTER SECTION
-    29.1. FOOTER WIDGETS
-    29.2. FOOTER COPYRIGHT
-
-*/
 
 /* ------------------------------------
     1. GENERAL STYLES
@@ -3134,6 +3014,15 @@ justify-content: center;
     color: #fff;
 }
 
+.fsocial{
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  height: 30px;
+  padding-top: 4px;
+  border-radius: 4px;
+}
+
 .sm-lnk{
     list-style: none!important;
 }
@@ -3167,6 +3056,10 @@ justify-content: center;
 }
 .mr-1{
   margin-right: 1rem;
+}
+
+.mr-2{
+  margin-right: 2rem;
 }
 
 .faq-q{
@@ -3206,4 +3099,8 @@ justify-content: center;
 
 .fs-1{
   font-size: 1.4rem;
+}
+
+.d-flex{
+  display: flex;
 }

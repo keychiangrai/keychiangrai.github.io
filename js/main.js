@@ -108,7 +108,7 @@
             });
         }
 
-    
+
 
 		/* ------------------------------------
             CONTACT FORM
@@ -240,12 +240,7 @@
         /* ------------------------------------
             BODY SCROLLING
         ------------------------------------ */
-        var isBodyScrolling = function () {
-            return $wn.scrollTop() > 1 ? $body.addClass('is-scrolling') : $body.removeClass('is-scrolling') ;
-        };
-
-        isBodyScrolling();
-        $wn.on('scroll', isBodyScrolling);
+      
 
         /* ------------------------------------
             ADJUST ROW

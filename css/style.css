@@ -3134,6 +3134,14 @@ justify-content: center;
     color: #fff;
 }
 
+.sm-lnk{
+    list-style: none!important;
+}
+
+.sm-lnk li{
+    margin-left: -4rem;
+}
+
 .f-k{
   font-family: 'Kanit', "Raleway", sans-serif;
 }

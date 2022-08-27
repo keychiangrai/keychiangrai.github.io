@@ -1,31 +1,38 @@
 {
+  "manifest_version": 3,
+  "version": "1.0.0",
   "name": "ร้านกุญแจยินดี บ้านดู ่เชียงราย",
   "short_name": "ร้านกุญแจยินดี",
-  "start_url": ".",
-  "lang": "th",
+  "description": "ร้านกุญแจ ยินดี เชียงราย. ทำกุญแจรีโมทรถทุกชนิด. บริการเปิดรถ 24 ชั่วโมง. ติดตั้งรีโมท/ ติดตั้งสมาร์ทคีย์. รีโมทหรือกุญแจสำรอง",
+  "start_url": "https://www.xn--12coo3ay7cvhku5g.com",
+  "default_locale": "th",
+  "lang": "th-TH",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
-  "description": "ร้านกุญแจยินดี เชียงราย",
+  "developer": {
+    "name": "Nomatec Labs",
+    "url": "https://www.nomateclabs.com"
+  },
   "icons": [{
-    "src": "./img/logo/logo_32.png",
+    "src": "https://www.xn--12coo3ay7cvhku5g.com/img/logo/logo_32.png",
     "sizes": "32x32",
     "type": "image/png"
   },{
-    "src": "./img/logo/logo_64.png",
+    "src": "https://www.xn--12coo3ay7cvhku5g.com/img/logo/logo_64.png",
     "sizes": "64x64",
     "type": "image/png"
   },{
-    "src": "./img/logo/logo_128.png",
+    "src": "https://www.xn--12coo3ay7cvhku5g.com/img/logo/logo_128.png",
     "sizes": "128x128",
     "type": "image/png"
   },{
-    "src": "./img/logo/logo_256.png",
+    "src": "https://www.xn--12coo3ay7cvhku5g.com/img/logo/logo_256.png",
     "sizes": "256x256",
     "type": "image/png"
   }, {
-    "src": "./img/logo/logo_512.png",
+    "src": "https://www.xn--12coo3ay7cvhku5g.com/img/logo/logo_512.png",
     "sizes": "512x512",
     "type": "image/png"
-  },]
+  }]
 }
